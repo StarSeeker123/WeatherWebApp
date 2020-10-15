@@ -71,8 +71,3 @@ function dateBuilder(d) {
 
   return `${day} ${date} ${month} ${year}`;
 }
-
-// vanilla js ready func equivalent
-document.addEventListener('DOMContentLoaded', function(){ 
-    getResults("Mumbai");
-  }, false);
